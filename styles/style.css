@@ -14,7 +14,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--font-main);
-  font-weight: var(--weigh-font-main);
+  font-variation-settings: "wght" var(--weigh-font-main);
   background-image: var(--page-background);
   background-attachment: fixed; /*фиксация фона */
   background-size: cover; /*cover растягивает фон */
@@ -67,7 +67,7 @@
 .card__title {
   padding: 4px 10px;
   font-size: 18px;
-  font-weight: var(--weight-font-main-title);
+  font-variation-settings: "wght" var(--weight-font-main-title);
   line-height: 1;
 }
 
