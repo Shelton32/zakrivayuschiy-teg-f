@@ -45,6 +45,7 @@
 
 .header__logo {
   font-family: var(--font-secondary);
+  text-transform: uppercase;
   font-size: clamp(49px, 43.37px + 1.5vw, 65px);
   line-height: 1;
   font-weight: 400;
@@ -76,14 +77,9 @@
   width: 100%;
   aspect-ratio: 1;
   object-fit: cover;
-  border-block: 2px solid #000;
 }
 
 /*фильтры для карточек*/
-.card__image-one {
-  /*!*filter: contrast(60%);*! Здесь мог бы быть фильтр, но Шука и так прекрасна. */
-}
-
 .card__image-two {
   filter: blur(6rem);
 }
@@ -157,11 +153,13 @@
 
 .card__image-wrapper {
   position: relative;
+  overflow: hidden;
+  border-block: 2px solid #000;
 }
 
 .card__label {
   position: absolute; /*вырываем из потока чтобы надпись была поверх картинки*/
-  inset-block-start: 27px; /*потому что бордер 2 пикселя*/
+  inset-block-start: 25px;
   inset-inline-end: 25px;
   opacity: 50%; /*прозрачность*/
   font-family: var(--font-secondary);
