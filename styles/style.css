@@ -79,32 +79,32 @@
   object-fit: cover;
 }
 
-/*фильтры для карточек*/
-.card__image-two {
+/*фильтры для изображений*/
+.filter-blur {
   filter: blur(6rem);
 }
 
-.card__image-three {
+.filter-opacity-blur {
   filter: opacity(0.4) blur(0.5rem);
 }
 
-.card__image-four {
+.filter-grayscale {
   filter: grayscale(0.8);
 }
 
-.card__image-five {
+.filter-sepia {
   filter: sepia(70%);
 }
 
-.card__image-six {
+.filter-invert {
   filter: invert(0.8);
 }
 
-.card__image-seven {
+.filter-hue-rotate {
   filter: hue-rotate(-144deg);
 }
 
-.card__image-eight {
+.filter-saturate {
   filter: saturate(158%);
 }
 
